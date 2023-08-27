@@ -1,0 +1,219 @@
+:root{
+	--black : #1D1D1D;
+	--white : #ffffff;
+	--blue  : #008cff;
+	--green : #78ee18;
+  --red : #ff2211;
+	--sample3_background :#d1caa1 ;
+	--sample3_card :#306bac;
+	--sample3_text : #222222;
+	--sample3_card_text:#ffffff ;
+}
+
+.css5Form{
+    width:100%;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.55),
+      10px 10px 15px rgba(70,70,70,0.12);
+    padding: 2.6rem 1.4rem;
+    border-radius: .8rem;
+  }
+ .css5Form .formLabel{
+    margin-top:.4em;
+    margin-bottom:5px;
+    font:inherit;
+    text-transform: uppercase;
+    font-size:.8em;
+  }
+ .css5Form .submit{
+    display:flex;
+    width:80%;
+    margin-left:10%;
+    text-align: center;
+    font:inherit;
+    color:inherit;
+    text-decoration: none;
+    border-radius: 1.4rem;
+    padding:.8rem;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.55),
+                10px 10px 15px rgba(70,70,70,0.12);
+  }
+  
+.css5Form .formControl{
+    margin-bottom:.4rem;
+    border:none;
+    background: transparent;
+    box-shadow: inset -10px -10px 15px rgba(255,255,255,0.55),
+      inset 10px 10px 15px rgba(70,70,70,0.12);
+    padding: .6rem;
+    width: 100%;
+    border-radius: .45rem;
+    outline:none;
+  }
+  
+  
+  
+ .css5Form .btn1,
+ .css5Form .btn2,
+ .css5Form .btn3,
+ .btn3,
+.btn2,
+ .btn1{
+    border:none;
+    cursor:pointer;
+    display:flex;
+    width:80%;
+    margin-left:10%;
+    margin-top:1rem;
+    text-align: center;
+    font:inherit;
+    color:inherit;
+    text-decoration: none;
+    border-radius: 1.4rem;
+    padding:.8rem;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.55),
+                10px 10px 15px rgba(70,70,70,0.12);
+    transition:0.3s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  
+ .css5Form .btn2:hover{
+    background:transparent;
+    box-shadow: 
+    inset -10px -10px 15px rgba(255,255,255,0.55),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+  }
+  
+ .css5Form .btn1:hover,
+ .btn1:hover{
+    background:none;
+    color:#15e38a;
+  }
+   .css5Form .btn3:hover,
+   .btn3:hover{
+    background:none;
+    color:#e015e3;
+  }
+  
+  
+
+  /* general styles */
+.FlexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .FlexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .FlexBetweenCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .openStylesButton1{
+    cursor:pointer;
+    padding:.8rem 1.3rem;
+    border-radius: .9rem;
+    text-align:center;
+    border: 2px solid transparent;
+    background: linear-gradient(160deg,#f0f1f4 0%,#e4e6eb 100%);
+    box-shadow: -3px -3px 6px 2px #fff , 5px 5px 8px 0px rgba(0,0,0,0.17), 1px 2px 2px 0px rgba(0,0,0,0.1);
+    transition: 0.1s;
+    font-weight: bold;
+  }
+
+.openStylesButton1:hover
+  {
+    border:1.4px solid #fafafa;
+    outline:none;
+    box-shadow: inset -3px -3px 5px 0px #fff , -1px -1px 4px 0px #fff, inset 5px 5px 10px 0px rgba(0,0,0,0.12) , inset 2px 2px 3px 0px rgba(0,0,0,0.07), 1px 2px 3px 0px rgba(0,0,0,1);
+  }
+
+  .dialogOpenContainer{
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+    width:100%;
+    align-items: center;
+  }
+
+  .HomeView , .ContactView{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:90vw;
+  }
+  .imgGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:1rem;
+    padding:1rem 0;
+    margin:1rem 0;
+    width:90vw;
+  }
+  .imgGrid .imgComp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5rem;
+    border-radius: .3rem;
+    flex-direction: column;
+    width: auto;
+    max-width: 85vw;
+    background-color: var(--white);
+    box-shadow: -4px 4px 16px rgba(0,0,0,.5);
+    overflow-x:scroll;
+  }
+  
+  @media screen and (max-width:885px){
+    .imgGrid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width:586px){
+    .imgGrid{
+      grid-template-columns: 1fr ;
+      padding:.5rem 0;
+      margin: .5rem 0;
+      grid-gap:.5rem;
+    }
+  }
+
+
+
+  .btn,.btn-logout,.btn-sm{
+    background-color: none;
+    border:none;
+    background-color: var(--blue);
+    color:var(--white);
+    font-size: 1.5rem;
+    padding:.5rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    cursor:pointer;
+    transition: 300ms ease-in;
+  }
+  .btn-sm{
+    font-size:1rem;
+  }
+  .btn-logout{
+    background-color: var(--red);
+  }
+  .btn-logout:hover{
+    background-color: var(--black);
+    color:var(--red);
+  }
+  .btn:hover,.btn-sm:hover{
+     background-color: var(--black);
+  }
+  
+
