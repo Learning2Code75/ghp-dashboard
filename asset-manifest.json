@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ghp-dashboard/static/css/main.6e451ff5.css",
+    "main.js": "/ghp-dashboard/static/js/main.e83f36bc.js",
+    "static/js/787.d3eb3687.chunk.js": "/ghp-dashboard/static/js/787.d3eb3687.chunk.js",
+    "index.html": "/ghp-dashboard/index.html",
+    "main.6e451ff5.css.map": "/ghp-dashboard/static/css/main.6e451ff5.css.map",
+    "main.e83f36bc.js.map": "/ghp-dashboard/static/js/main.e83f36bc.js.map",
+    "787.d3eb3687.chunk.js.map": "/ghp-dashboard/static/js/787.d3eb3687.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e451ff5.css",
+    "static/js/main.e83f36bc.js"
+  ]
+}
